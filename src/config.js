@@ -1,4 +1,6 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "pk_test_v1amvR35uoCNduJfkqGB8RLD",
   s3: {
     REGION: "us-east-2",
     BUCKET: "notes-app-uploads-jeffgojeff"
@@ -14,4 +16,3 @@ export default {
     IDENTITY_POOL_ID: "us-east-2:5aabb612-e4b7-4c86-a2c6-0d7e58d2584f"
   }
 };
-
